@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squat - راحتك وصحتك</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet" integrity="sha384-+qdLaIsjo8YXcHh93eMKFRaZQ4kJ7ndY1ztQm6hC1E0yIy9J8Q0lC6Jv1IDKW5R+" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .hero {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .cta-button {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .benefits img, .features img {
+            width: 60px;
+            height: 60px;
+        }
+        .testimonial-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        .pricing-item {
+            border: 1px solid #dee2e6;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="container d-flex justify-content-between align-items-center py-3">
+        <div class="logo">
+            <img src="logo.png" alt="Squat Logo" width="150">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a href="#benefits" class="nav-link">الفوائد</a></li>
+                <li class="nav-item"><a href="#how-it-works" class="nav-link">كيف يعمل</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">آراء العملاء</a></li>
+                <li class="nav-item"><a href="#pricing" class="nav-link">الأسعار</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>راحة وصحة أفضل في المرحاض</h1>
+            <p>أفضل كرسي صحي مبيعًا في أمريكا الآن متوفر في المغرب!</p>
+            <a href="#pricing" class="cta-button">اشترِ الآن</a>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">فوائد Squat</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="comfort-icon.png" alt="راحة">
+                    <h3>راحة فائقة</h3>
+                    <p>يوفر وضعية مريحة تساعد على تحسين الهضم وتقليل الآلام.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="easy-to-store-icon.png" alt="سهل التخزين">
+                    <h3>سهل التخزين</h3>
+                    <p>تصميم قابل للطي يجعل تخزينه سهلاً في أي مكان.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="durable-icon.png" alt="متين">
+                    <h3>متين ومصنوع من الخشب</h3>
+                    <p>مصنوع من خشب MDF عالي الجودة لضمان متانة طويلة الأمد.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">كيف يعمل Squat</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="step1.png" alt="خطوة 1">
+                    <h3>1. افتح Squat</h3>
+                    <p>قم بفك Squat بسهولة ووضعه أمام المرحاض.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="step2.png" alt="خطوة 2">
+                    <h3>2. استخدمه</h3>
+                    <p>اجلس على Squat لتحقيق وضعية صحية ومريحة.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="step3.png" alt="خطوة 3">
+                    <h3>3. اطويه وخزنه</h3>
+                    <p>بعد الاستخدام، اطوي Squat وخزنه بسهولة في مكان صغير.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials Section -->
+    <section id="testimonials" class="testimonials py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">آراء عملائنا</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-item">
+                        <img src="customer1.jpg" alt="عميل سعيد">
+                        <p>"Squat غير حياتي! الآن أستخدم المرحاض براحة أكبر وأشعر بتحسن في صحتي الهضمية."</p>
+                        <h4>سارة من الدار البيضاء</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-item">
+                        <img src="customer2.jpg" alt="عميل سعيد">
+                        <p>"التصميم القابل للطي رائع، يمكنني تخزينه بسهولة في حمامي المدمج."</p>
+                        <h4>محمد من الرباط</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-item">
+                        <img src="customer3.jpg" alt="عميل سعيد">
+                        <p>"أفضل استثمار قمت به لمنزلي. Squat يجمع بين الراحة والأناقة."</p>
+                        <h4>ليلى من مراكش</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Features Section -->
+    <section class="features py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">مميزات Squat</h2>
+            <ul class="list-unstyled row">
+                <li class="col-md-3 text-center mb-4">
+                    <img src="feature1.png" alt="تصميم أنيق">
+                    <h3>تصميم أنيق</h3>
+                    <p>يلائم أي ديكور حمام حديث.</p>
+                </li>
+                <li class="col-md-3 text-center mb-4">
+                    <img src="feature2.png" alt="مادة عالية الجودة">
+                    <h3>مادة عالية الجودة</h3>
+                    <p>مصنوع من خشب MDF لضمان المتانة.</p>
+                </li>
+                <li class="col-md-3 text-center mb-4">
+                    <img src="feature3.png" alt="سهل الاستخدام">
+                    <h3>سهل الاستخدام</h3>
+                    <p>فتح وطي Squat بسهولة وبسرعة.</p>
+                </li>
+                <li class="col-md-3 text-center mb-4">
+                    <img src="feature4.png" alt="تحسين الوضعية">
+                    <h3>تحسين الوضعية</h3>
+                    <p>يساعد في تحقيق وضعية صحية ومريحة أثناء استخدام المرحاض.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta py-5 text-center bg-primary text-white">
+        <div class="container">
+            <h2>احصل على Squat الآن واستمتع بالراحة!</h2>
+            <a href="#pricing" class="cta-button">اشترِ الآن</a>
+        </div>
+    </section>
+
+    <!-- Pricing and Offers Section -->
+    <section id="pricing" class="pricing py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">الأسعار والعروض</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 pricing-item">
+                    <h3>عرض اليوم</h3>
+                    <p>سعر خاص لفترة محدودة: <strong>199 درهم</strong></p>
+                    <a href="#checkout" class="cta-button">اشترِ الآن</a>
+                </div>
+                <div class="col-md-4 pricing-item">
+                    <h3>حزمة العائلة</h3>
+                    <p>299 درهم – Squat + إضافات خاصة للعائلة</p>
+                    <a href="#checkout" class="cta-button">اشترِ الآن</a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>ضمان رضا لمدة 30 يومًا. إذا لم تكن راضيًا، يمكنك استرجاع المنتج.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently Asked Questions (FAQs) Section -->
+    <section class="faqs py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">الأسئلة المتكررة</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            كيف أستخدم Squat؟
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            افتح Squat وضعه أمام المرحاض، اجلس على Squat لتحقيق وضعية صحية ومريحة، وبعد الاستخدام، اطوي Squat وخزنه بسهولة.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            هل Squat مناسب لجميع الأعمار؟
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            نعم، Squat مناسب للأطفال والكبار ويُستخدم لتحسين الوضعية الصحية للجميع.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            ما هي مادة صنع Squat؟
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Squat مصنوع من خشب MDF عالي الجودة لضمان المتانة وطول العمر.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            هل هناك ضمان للمنتج؟
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            نعم، نقدم ضمان رضا لمدة 30 يومًا. إذا لم تكن راضيًا، يمكنك استرجاع المنتج.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container d-flex justify-content-between">
+            <div class="contact-info">
+                <h4>اتصل بنا</h4>
+                <p>📧 البريد الإلكتروني: support@squat.ma</p>
+                <p>📞 الهاتف: +212 6 1234 5678</p>
+                <p>📍 العنوان: الرباط، المغرب</p>
+            </div>
+            <div class="social-media">
+                <h4>تابعنا على</h4>
+                <a href="https://facebook.com/squat.ma"><img src="facebook-icon.png" alt="Facebook" width="30"></a>
+                <a href="https://instagram.com/squat.ma"><img src="instagram-icon.png" alt="Instagram" width="30"></a>
+            </div>
+            <div class="additional-links">
+                <h4>روابط إضافية</h4>
+                <a href="#privacy">سياسة الخصوصية</a><br>
+                <a href="#terms">شروط الخدمة</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (for Accordion) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoY4WyoWvE4l4O5bZ2YtHk7/Zzz4azNUCUJglFkF5Sjk8K6" crossorigin="anonymous"></script>
+</body>
+</html>
